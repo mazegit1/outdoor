@@ -10,7 +10,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   const menuItems = [
-    { name: 'Sunroom', path: './sunroom' },
+    { name: 'Our Projects', path: './sunroom' },
     { name: 'Louver', path: './louver' },
     { name: 'Pergola', path: './pergola' },
     { name: 'Blinds', path: './blinds' },

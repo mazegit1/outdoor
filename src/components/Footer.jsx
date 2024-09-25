@@ -5,7 +5,7 @@ import footertitle from '../images/footertitle.png';
 
 const Footer = () => {
   const menuItems = [
-    { name: 'Sunroom', path: './sunroom' },
+    { name: 'Our Projects', path: './sunroom' },
     { name: 'Louver', path: './louver' },
     { name: 'Pergola', path: './pergola' },
     { name: 'Blinds', path: './blinds' },
