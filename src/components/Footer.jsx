@@ -36,7 +36,7 @@ const Footer = () => {
           {menuItems.map((item, index) => (
             <li key={index}>
               <motion.div 
-                whileHover={{ scale: 1.1, color: '#FFD700' }} // Animation on hover
+                whileHover={{ scale: 1 }} // Animation on hover
                 transition={{ duration: 0.3 }}
               >
                 <Link to={item.path}>{item.name}</Link>

@@ -15,11 +15,11 @@ const App = () => {
       <Navbar />   
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="./blinds" element={<Blinds />} />
-        <Route path="./louver" element={<Louver />} />
-        <Route path="./pergola" element={<Pergola />} />
-        <Route path="./sunroom" element={<Sunroom />} />
-        <Route path="./windows-doors" element={<WindowsDoors />} />
+        <Route path="/blinds" element={<Blinds />} />
+        <Route path="/louver" element={<Louver />} />
+        <Route path="/pergola" element={<Pergola />} />
+        <Route path="/sunroom" element={<Sunroom />} />
+        <Route path="/windows-doors" element={<WindowsDoors />} />
       </Routes>
       <Footer />  
     </Router>

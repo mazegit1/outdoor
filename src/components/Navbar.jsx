@@ -19,13 +19,13 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="header fixed w-full text-white flex items-center justify-between py-8 px-16 bg-transparent z-50">
+      <div className="header fixed w-full text-white bg-black backdrop-blur-2xl flex items-center justify-between py-8 px-16 bg-transparent z-50">
         <a href='/' className="header-left">
           <img src={navbarlogo} alt="navbar-logo" />
         </a>
         <div className="header-right hidden md:flex items-center gap-8 text-2xl">
           {menuItems.map(item => (
-            <Link key={item.name} to={item.path} className="transition-all ease-in-out duration-200 hover:text-black hover:underline">{item.name}</Link>
+            <Link key={item.name} to={item.path} className="transition-all ease-in-out duration-200 hover:text-gray-400">{item.name}</Link>
           ))}
           <LuSearch className='text-2xl' />
         </div>
@@ -46,7 +46,7 @@ const Navbar = () => {
           transition={{ duration: 0.3 }}
         >
           {menuItems.map(item => (
-            <Link key={item.name} to={item.path} className="transition-all ease-in-out duration-200 hover:text-gray-500 hover:underline" onClick={toggleMenu}>{item.name}</Link>
+            <Link key={item.name} to={item.path} className="transition-all ease-in-out duration-200" onClick={toggleMenu}>{item.name}</Link>
           ))}
         </motion.div>
       )}
