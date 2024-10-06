@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="header fixed w-full text-white bg-black backdrop-blur-2xl flex items-center justify-between py-8 px-16 bg-transparent z-50">
+      <div className="header fixed w-full text-white bg-black backdrop-blur-3xl flex items-center justify-between py-8 px-16 bg-transparent z-50">
         <a href='/' className="header-left">
           <img src={navbarlogo} alt="navbar-logo" />
         </a>

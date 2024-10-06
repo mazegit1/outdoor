@@ -48,7 +48,7 @@ const Footer = () => {
       <hr className='mt-16' />
       <div className="footer-contacts flex flex-col md:flex-row items-center justify-between px-4 md:px-20 py-4 text-xl">
         <div className="contact flex flex-col items-start gap-2">
-          <h1>Contact</h1>
+          <a href='https://mazegit-portfolio.netlify.app/contacts'>Contact</a>
           <h3>Baku, Azerbaijan</h3>
         </div>
         <div className="contact flex flex-col items-start gap-2">
